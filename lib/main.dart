@@ -1,4 +1,5 @@
 import 'package:alubank/screens/home.dart';
+import 'package:alubank/themes/my_themes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +15,7 @@ class Alubank extends StatelessWidget {
     return MaterialApp(
       title: 'Alubank',
       home: Home(),
+      theme:MyTheme,
     );
   }
 }
