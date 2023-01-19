@@ -12,5 +12,8 @@ ThemeData MyTheme = ThemeData(
     bodyLarge: TextStyle(
       fontSize: 28,
     ),
+    titleMedium: TextStyle(
+      fontSize: 20,
+    ),
   ),
 );
